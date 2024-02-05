@@ -511,7 +511,9 @@ function App() {
               to wszystko czeka na Ciebie
             </p>
             <p>Jeśli potrzebujesz więcej info pisz</p>
-            <h5>dietoteka.rejestracja@gmail.com</h5>
+            <h5 className="ticket text-secondary">
+              dietoteka.rejestracja@gmail.com
+            </h5>
             <div>
               <p>
                 <strong>Cena obejmuje:</strong>
