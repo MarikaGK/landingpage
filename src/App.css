@@ -1,7 +1,27 @@
+:root {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  /* --font-primary: "Libre Baskerville", serif; */
+  --font-secondary: "Libre Baskerville", serif;
+  /* --font-primary: "Lato", sans-serif; */
+  /* --font-secondary: "Lato", sans-serif; */
+  /* --font-secondary: "Cormorant Garamond", serif; */
+  --font-primary: "Cormorant Garamond", serif;
+  /* --font-secondary: "Libre Baskerville", serif; */
+  --background-primary: rgb(256, 256, 256, 1);
+  --background-secondary: rgba(47, 69, 92, 255);
+  --accent-color: #17524a;
+  --text-color-primary: #17524a;
+  --text-color-secondary: rgb(256, 256, 256, 1);
+  --text-black: rgb(0, 0, 0, 1);
+  --green-price: #79a42e;
+  --red-price: #a42e3e;
+}
+
 #root {
-  max-width: 1280px;
+  width: 100%;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
@@ -33,9 +53,45 @@
   }
 }
 
+h3 {
+  margin: 0;
+  font-family: var(--font-primary);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+h4 {
+  margin: 0;
+  font-family: var(--font-primary);
+  font-size: 24px;
+  line-height: 40px;
+}
+
+h5 {
+  margin: 0;
+  font-family: var(--font-secondary);
+  font-size: 24px;
+  line-height: 40px;
+}
+
+p {
+  font-family: var(--font-secondary);
+  font-size: 20px;
+  line-height: 30px;
+  padding: 0;
+  margin: 0;
+}
+
 .container {
-  padding: 0 40px;
-  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 16px 40px;
+  max-width: 880px;
+  margin: 0 auto;
 }
 
 .list {
@@ -46,5 +102,58 @@
   padding: 0;
 }
 
+.listItem {
+  padding: 0;
+  margin: 0;
+}
+
 .separator {
+}
+
+.backgroundOne {
+  background: var(--background-secondary);
+  height: fit-content;
+  padding: 32px;
+}
+
+.backgroundTwo {
+  background: var(--background-primary);
+  height: fit-content;
+  padding: 32px;
+}
+
+.backgroundAccent {
+  background: var(--accent-color);
+  height: fit-content;
+  padding: 32px;
+}
+
+.text-black {
+  color: var(--text-black);
+}
+
+.text-color-primary {
+  color: var(--text-color-primary);
+  font-weight: 700;
+}
+
+.accent {
+  color: var(--accent-color);
+}
+
+.redAccent {
+  color: var(--red-price);
+  text-decoration: line-through;
+}
+
+.greenAccent {
+  color: var(--green-price);
+}
+
+.price {
+  font-size: 40px;
+}
+
+.priceGrand {
+  font-size: 48px;
 }
