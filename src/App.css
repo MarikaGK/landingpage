@@ -4,17 +4,17 @@
   margin: 0;
   /* --font-primary: "Libre Baskerville", serif; */
   --font-secondary: "Libre Baskerville", serif;
-  /* --font-primary: "Lato", sans-serif; */
+  --font-ticket: "Lato", sans-serif;
   /* --font-secondary: "Lato", sans-serif; */
   /* --font-secondary: "Cormorant Garamond", serif; */
   --font-primary: "Cormorant Garamond", serif;
   /* --font-secondary: "Libre Baskerville", serif; */
   --background-primary: rgb(256, 256, 256, 1);
-  --background-secondary: rgba(47, 69, 92, 255);
-  --accent-color: #17524a;
+  --background-secondary: #6a9e8dc8;
+  --accent-color: #428972c5;
   --text-color-primary: #17524a;
   --text-color-secondary: rgb(256, 256, 256, 1);
-  --text-black: rgb(0, 0, 0, 1);
+  --text-black: #0e4941;
   --green-price: #79a42e;
   --red-price: #a42e3e;
 }
@@ -23,6 +23,24 @@
   width: 100%;
   margin: 0 auto;
   text-align: center;
+}
+
+.ticket {
+  font-family: var(--font-ticket);
+  color: var(--background-secondary);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 36px;
+  padding: 20px;
+  width: fit-content;
+  text-shadow: 0 0 3px var(--accent-color);
+  background: rgba(255, 255, 255, 0.26);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 3px 7px 0 var(--background-secondary),
+    inset 0px -3px 10px 0px var(--background-secondary);
 }
 
 .logo {
@@ -58,21 +76,31 @@ h3 {
   font-family: var(--font-primary);
   font-size: 24px;
   font-weight: 400;
-  line-height: 40px;
+  line-height: 36px;
+
+  @media screen and (min-width: 600px) {
+    font-size: 30px;
+    line-height: 44px;
+  }
 }
 
 h4 {
   margin: 0;
   font-family: var(--font-primary);
-  font-size: 24px;
-  line-height: 40px;
+  font-size: 22px;
+  line-height: 33px;
+  font-weight: 400;
+  @media screen and (min-width: 600px) {
+    font-size: 24px;
+    line-height: 36px;
+  }
 }
 
 h5 {
   margin: 0;
   font-family: var(--font-secondary);
-  font-size: 24px;
-  line-height: 40px;
+  font-size: 22px;
+  line-height: 33px;
 }
 
 p {
@@ -83,14 +111,36 @@ p {
   margin: 0;
 }
 
+a {
+  margin: 0;
+  font-family: var(--font-primary);
+  font-size: 28px;
+  line-height: 40px;
+  color: inherit;
+  scale: 1;
+  opacity: 0.7;
+  cursor: pointer;
+  transition: all 500ms ease-in-out;
+}
+
+a:hover,
+a:focus {
+  opacity: 1;
+  color: inherit;
+  scale: 1.05;
+}
+
+.gap {
+  gap: 24px;
+}
+
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 24px;
   padding: 16px 40px;
-  max-width: 880px;
+  max-width: 780px;
   margin: 0 auto;
 }
 
@@ -107,17 +157,34 @@ p {
   margin: 0;
 }
 
+.card {
+  padding: 20px 50px;
+  margin: 10px 30px;
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 3px 7px 0 #ffffff, inset 0px -3px 10px 0px #ffffffbb;
+}
+
 .separator {
+}
+
+.background {
+  background: var(--background-primary);
 }
 
 .backgroundOne {
   background: var(--background-secondary);
   height: fit-content;
   padding: 32px;
+  -webkit-box-shadow: 0px 3px 20px 3px var(--background-secondary);
+  -moz-box-shadow: 0px 3px 20px 3px var(--background-secondary);
+  box-shadow: 0px 3px 20px 3px var(--background-secondary);
 }
 
 .backgroundTwo {
-  background: var(--background-primary);
   height: fit-content;
   padding: 32px;
 }
@@ -126,10 +193,24 @@ p {
   background: var(--accent-color);
   height: fit-content;
   padding: 32px;
+  -webkit-box-shadow: 0px 3px 20px 3px var(--accent-color);
+  -moz-box-shadow: 0px 3px 20px 3px var(--accent-color);
+  box-shadow: 0px 3px 20px 3px var(--accent-color);
 }
 
-.text-black {
+.text-black,
+.text-black:hover,
+.text-black:focus {
   color: var(--text-black);
+}
+
+.text-secondary {
+  color: var(--text-color-secondary);
+}
+
+.text-secondary:hover,
+.text-secondary:focus {
+  color: var(--text-color-secondary);
 }
 
 .text-color-primary {
@@ -156,4 +237,31 @@ p {
 
 .priceGrand {
   font-size: 48px;
+}
+
+img {
+  border-radius: 50%;
+  box-shadow: 0 3px 7px 0 var(--background-secondary),
+    inset 0px -3px 10px 0px var(--background-secondary);
+}
+
+.parralax {
+  /* The image used */
+  background-image: url("./public/pxfuel.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.glass {
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
 }
