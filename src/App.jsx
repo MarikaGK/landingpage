@@ -62,8 +62,10 @@ function App() {
         <div className="backgroundAccent">
           <div className="container">
             <h4>
-              <strong>Zapraszamy Cię na wyjątkowe szkolenie</strong>, które
-              pozwoli Ci zadbać o swoje zdrowie fizyczne i psychiczne,
+              <strong>
+                Zapraszamy Cię na wyjątkowe szkolenie w dniach 15-17 marca
+              </strong>
+              , które pozwoli Ci zadbać o swoje zdrowie fizyczne i psychiczne,
               wprowadzić profilaktykę stanów zapalnych oraz poznać kuracje
               zdrowotne przeciwstarzeniowe (anty aging)
             </h4>
@@ -73,7 +75,7 @@ function App() {
               href="https://www.facebook.com/dietoteka/reviews"
               target="_blank"
               rel="noreferrer"
-              className="text-color-primary"
+              className="text-link-color-primary"
             >
               Opinie o szkoleniach Izabeli Potrzebowskiej-Kniaziuk
             </a>
@@ -97,19 +99,19 @@ function App() {
             <h5 className="accent">Obejrzyj video:</h5>
             <a
               href="https://www.facebook.com/dietoteka/videos/247595858242266"
-              className="text-color-primary"
+              className="text-link-color-primary"
             >
               Również Panowie świetnie się odnajdują na naszych spotkaniach!
             </a>
             <a
               href="https://www.facebook.com/dietoteka/videos/798739058578591"
-              className="text-color-primary"
+              className="text-link-color-primary"
             >
               Lubimy Was zaskakiwać!
             </a>
             <a
               href="https://www.facebook.com/dietoteka/videos/309746628221537"
-              className="text-color-primary"
+              className="text-link-color-primary"
             >
               Poczuj te emocje!
             </a>
@@ -289,7 +291,7 @@ function App() {
               href="https://hotelarkas.pl/"
               target="_blank"
               rel="noreferrer"
-              className="text-color-primary"
+              className="text-link-color-primary"
             >
               Obejrzyj wnętrza
             </a>
@@ -350,11 +352,11 @@ function App() {
               href="https://www.facebook.com/joannacidylofotografiakobieca"
               target="_blank"
               rel="noreferrer"
-              className="text-color-primary"
+              className="text-link-color-primary"
             >
               Zerknij na prace Joanny Cidyło
             </a>
-            <div>
+            <div className="container">
               <BuyTicket />
               <Pricing />
             </div>
@@ -393,7 +395,7 @@ function App() {
         {/* fotka opinii o IP-K */}
         <div className="backgroundTwo">
           <div className="container">
-            <h5 className="text-black">AGENDA SZKOLENIA</h5>
+            <h5 className="text-black">AGENDA SZKOLENIA 15-17 marca 2024r</h5>
             <p className="text-black">
               <strong>Piątek - 15:00</strong>
             </p>
