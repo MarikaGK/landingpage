@@ -1,7 +1,7 @@
 const BuyTicket = () => {
   return (
     <>
-      <h4 className="ticket">zarezerwuj bilet i dołącz już dziś!</h4>;
+      <h4 className="ticket">zarezerwuj bilet i dołącz już dziś!</h4>
     </>
   );
 };

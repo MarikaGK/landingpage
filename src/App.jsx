@@ -9,7 +9,7 @@ function App() {
         <div className="backgroundOne">
           <div className="container gap">
             <h3>
-              PRZEŁAM BARIERĘ NIEMOŻNOŚCI, OŻYW ZMĘCZONY ORGANIZM I POCZUJ
+              PRZEŁAM BARIERĘ NIEMOŻNOŚCI, OŻYW SWÓJ ZMĘCZONY ORGANIZM I POCZUJ
               POPRAWĘ!
             </h3>
             <h3>POZNAJ SPRAWDZONE METODY PROFILAKTYCZNE I ZACHOWAJ ZDROWIE!</h3>
@@ -18,7 +18,7 @@ function App() {
         <div className="backgroundTwo">
           <div className="container">
             <div className="textWrapper">
-              <p className="text-black">Jeżeli od wielu miesięcy</p>
+              <p className="text-black">Jeżeli od wielu miesięcy:</p>
               <ul className="list">
                 <li className="listItem">
                   <p className="text-black">czujesz ból,</p>
@@ -36,18 +36,24 @@ function App() {
                 </li>
                 <li className="listItem">
                   <p className="text-black">
-                    narzekasz na kondycję skóry i włosów{" "}
+                    narzekasz na kondycję skóry i włosów,
+                  </p>
+                </li>
+                <li className="listItem">
+                  <p className="text-black">
+                    szukasz rozwiązań i poprawy samopoczucia, łykając coraz
+                    większe ilości lekarstw
                   </p>{" "}
                 </li>
               </ul>
             </div>
             <div>
-              <p className="text-color-primary">
-                I po omacku szukasz rozwiązań i poprawy zdrowia łykając coraz
-                większe ilości lekarstw?
-              </p>
-              <p className="text-color-primary">
-                Albo chcesz wyprzedzić czas i uniknąć tych wszystkich
+              {/* <p className="text-color-primary">
+                I po omacku szukasz rozwiązań i poprawy zdrowia łykając coraz większe ilości
+                lekarstw?
+              </p> */}
+              <p className="text-color-secondary">
+                A może chcesz wyprzedzić czas i uniknąć tych wszystkich
                 dolegliwości?
               </p>
             </div>
@@ -67,17 +73,17 @@ function App() {
               href="https://www.facebook.com/dietoteka/reviews"
               target="_blank"
               rel="noreferrer"
-              className="text-secondary"
+              className="text-color-primary"
             >
-              opinie o szkoleniach Izabeli Potrzebowskiej-Kniaziuk - link
+              Opinie o szkoleniach Izabeli Potrzebowskiej-Kniaziuk
             </a>
           </div>
         </div>
         <div className="backgroundTwo">
           <div className="container">
-            <h5 className="text-color-primary">
+            <h5 className="text-color-secondary">
               Witaj w świecie, który sprawi, że będziesz wyglądać i czuć się
-              młodziej
+              młodziej.
             </h5>
             <p className="text-black">
               Chcemy przedstawić Ci najnowszy hit na rynku -{" "}
@@ -87,26 +93,23 @@ function App() {
               , które zrewolucjonizuje Twoje podejście do zdrowia!
             </p>
           </div>
-          <p className="text-black">
-            Nawet techniczni Panowie się odnajdują na naszych spotkaniach!
-          </p>
-          <div className="container gap">
-            <h4 className="text-black">Obejrzyj video:</h4>
+          <div className="videosDiv">
+            <h5>Obejrzyj video:</h5>
             <a
               href="https://www.facebook.com/dietoteka/videos/247595858242266"
-              className="text-black"
+              className="text-color-primary"
             >
-              Nawet techniczni Panowie się odnajdują na naszych spotkaniach
+              Również Panowie świetnie się odnajdują na naszych spotkaniach!
             </a>
             <a
               href="https://www.facebook.com/dietoteka/videos/798739058578591"
-              className="text-black"
+              className="text-color-primary"
             >
-              Lubimy Was zaskakiwać
+              Lubimy Was zaskakiwać!
             </a>
             <a
               href="https://www.facebook.com/dietoteka/videos/309746628221537"
-              className="text-black"
+              className="text-color-primary"
             >
               Poczuj te emocje!
             </a>
@@ -121,16 +124,16 @@ function App() {
                   Dowiesz się o różnych stanach zapalnych jako źródłach
                   większości chorób
                 </h5>
-                <p className="text-white">
-                  zrozumiesz przyczyny stanów zapalnych i reakcje organizmu
+                <p className="text-black">
+                  Zrozumiesz przyczyny stanów zapalnych i reakcje organizmu
                 </p>
               </li>
               <li className="listItem card">
                 <h5 className="text-white">
                   Poznasz diagnostykę stanów zapalnych
                 </h5>
-                <p className="text-white">
-                  odkryjesz wpływ czynników jak: histamina, homocysteina, stan
+                <p className="text-black">
+                  Odkryjesz wpływ czynników jak: histamina, homocysteina, stan
                   jelit, otyłość, styl życia, choroby autoimmunologiczne na
                   poziom stanów zapalenia w organizmie
                 </p>
@@ -141,8 +144,8 @@ function App() {
                   hamują starzenie się oraz zabezpieczają przed stanami
                   zapalnymi
                 </h5>
-                <p className="text-white">
-                  nauczysz się tajemnic zdrowego odżywiania, które przyczynią
+                <p className="text-black">
+                  Nauczysz się tajemnic zdrowego odżywiania, które przyczynią
                   się do redukcji stanów zapalnych w ciele
                 </p>
               </li>
@@ -151,8 +154,8 @@ function App() {
                   Przyjrzysz się kondycji swoich jelit i żołądka wpływających na
                   Twoje zdrowie fizyczne i psychiczne
                 </h5>
-                <p className="text-white">
-                  dowiesz się, jak poprawić ich funkcjonowanie w dolegliwościach
+                <p className="text-black">
+                  Dowiesz się, jak poprawić ich funkcjonowanie w dolegliwościach
                 </p>
               </li>
               <li className="listItem card">
@@ -160,16 +163,16 @@ function App() {
                   Odkryjesz trzy kluczowe filary zdrowia i ich wpływ na
                   starzenie się i stany zapalne organizmu
                 </h5>
-                <p className="text-white">
-                  zdobędziesz informację o podstawach wspierającego stylu życia
+                <p className="text-black">
+                  Zdobędziesz informację o podstawach wspierającego stylu życia
                 </p>
               </li>
               <li className="listItem card">
                 <h5 className="text-white">
                   Opracujesz swoje sposoby na zwiększenie energii i witalności
                 </h5>
-                <p className="text-white">
-                  określisz nawyki, które pomogą utrzymać młodość na dłużej
+                <p className="text-black">
+                  Określisz nawyki, które pomogą utrzymać młodość na dłużej
                 </p>
               </li>
               <li className="listItem card">
@@ -177,8 +180,8 @@ function App() {
                   Nauczysz się jak wykorzystać tętniącą energią moc
                   antyoksydantów
                 </h5>
-                <p className="text-white">
-                  poznasz najlepsze produkty i suplementy, które działają jak
+                <p className="text-black">
+                  Poznasz najlepsze produkty i suplementy, które działają jak
                   eliksir młodości, ożywiając nawet najbardziej zmęczony
                   organizm
                 </p>
@@ -191,7 +194,7 @@ function App() {
           <div className="container gap">
             <BuyTicket />
             <img
-              src="1707116164213.jpg"
+              src="./src/assets/iza.jpg"
               alt="Izabela Potrzebowska-Kniaziuk"
               width="200"
               height="200"
@@ -206,7 +209,7 @@ function App() {
               tylko teoretyczną, ale również praktyczną
             </p>
             <img
-              src="/1707116164206.jpg"
+              src="./src/assets/kasia.jpg"
               alt="Kasia Koźlik"
               width="200"
               height="200"
@@ -219,7 +222,7 @@ function App() {
               przeprowadzi m.in. wizualizacje i zajęcia ruchowe
             </p>
             <img
-              src="./src/1707116164198.jpg"
+              src="./src/assets/asia.jpg"
               alt="Joanna Cidyło"
               width="200"
               height="200"
@@ -233,20 +236,20 @@ function App() {
           </div>
         </div>
         <div className="backgroundAccent">
-          <diV className="container gap">
-            <h3>Nie bój się!</h3>
+          <div className="container gap">
+            <h3>Zaufaj nam!</h3>
             <p>
               To nie jest kolejne nudne szkolenie, w którym będziesz tylko
               słuchać wykładów
             </p>
             <p>
               Nasz program oparty jest na interakcji, praktycznych ćwiczeniach i
-              - jak w szwedzkim bufecie- wybierzesz, to co dla Ciebie najlepsze
+              - jak w szwedzkim bufecie - wybierzesz, to co dla Ciebie najlepsze
             </p>
             <p>
               <strong>
-                Będziesz miał możliwość poznać innych pasjonatów zdrowego stylu
-                życia, którzy, tak jak Ty, pragną przetrwać próbę czasu i
+                Będziesz mieć możliwość poznania innych pasjonatów zdrowego
+                stylu życia, którzy, tak jak Ty, pragną przetrwać próbę czasu i
                 cieszyć się życiem pełnym energii
               </strong>
             </p>
@@ -257,7 +260,7 @@ function App() {
                 lata!
               </strong>
             </p>{" "}
-          </diV>
+          </div>
         </div>
         <div className="backgroundTwo">
           <div className="container gap">
@@ -286,9 +289,9 @@ function App() {
               href="https://hotelarkas.pl/"
               target="_blank"
               rel="noreferrer"
-              className="text-black"
+              className="text-color-primary"
             >
-              Obejrzyj wnętrza - link
+              Obejrzyj wnętrza
             </a>
           </div>
         </div>
@@ -303,7 +306,7 @@ function App() {
                 mentalnych
               </strong>
               . Poznane metody zastosujesz w codziennej praktyce ograniczania
-              stresu.
+              stresu
             </p>
             <p>
               Weźmiesz udział w błyskawicznym{" "}
@@ -347,9 +350,9 @@ function App() {
               href="https://www.facebook.com/joannacidylofotografiakobieca"
               target="_blank"
               rel="noreferrer"
-              className="text-black"
+              className="text-color-primary"
             >
-              Zerknij na prace Joanny Cidyło - link
+              Zerknij na prace Joanny Cidyło
             </a>
             <div>
               <BuyTicket />
@@ -379,7 +382,7 @@ function App() {
               spektakularne efekty
             </p>
             <p>
-              <stron>Dołącz do nas i odmień swoje życie na lepsze!</stron>
+              <strong>Dołącz do nas i odmień swoje życie na lepsze!</strong>
             </p>
             <h5>
               Nie czekaj! Wybierz siłę, wybierz zdrowie, wybierz dobre
@@ -527,9 +530,9 @@ function App() {
               to wszystko czeka na Ciebie
             </p>
             <p>Jeśli potrzebujesz więcej info pisz</p>
-            <h5 className="ticket text-secondary">
+            <a className="mail" href="mailto:dietoteka.rejestracja@gmail.com">
               dietoteka.rejestracja@gmail.com
-            </h5>
+            </a>
             <div>
               <p>
                 <strong>Cena obejmuje:</strong>
@@ -554,10 +557,10 @@ function App() {
                   niespodzianki- zajęcia np..mini zabieg,
                 </li>
                 <li className="listItem">ale to nie koniec-- RELACJE,</li>
-                <li className="listItem">
-                  Bonusy- dodatkowe materiały- video szkolenie +ebook +grupa
-                  wsparcia na FB ) o wartości 397 zł (+ 10% zniżki gdy będziesz
-                  w dwójkę)
+                <li className="listItem greenAccent">
+                  Bonusy - dodatkowe materiały - video szkolenie +ebook +grupa
+                  wsparcia na FB ) o wartości 397 zł (+ 10% zniżki, gdy będziesz
+                  we dwójkę)
                 </li>
               </ul>
             </div>

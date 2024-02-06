@@ -3,11 +3,11 @@
   padding: 0;
   margin: 0;
   /* --font-primary: "Libre Baskerville", serif; */
-  --font-secondary: "Libre Baskerville", serif;
-  --font-ticket: "Lato", sans-serif;
+  --font-secondary: 'Libre Baskerville', serif;
+  --font-ticket: 'Lato', sans-serif;
   /* --font-secondary: "Lato", sans-serif; */
   /* --font-secondary: "Cormorant Garamond", serif; */
-  --font-primary: "Cormorant Garamond", serif;
+  --font-primary: 'Cormorant Garamond', serif;
   /* --font-secondary: "Libre Baskerville", serif; */
   --background-primary: rgb(256, 256, 256, 1);
   --background-secondary: #6a9e8dc8;
@@ -16,7 +16,7 @@
   --text-color-secondary: rgb(256, 256, 256, 1);
   --text-black: #0e4941;
   --green-price: #79a42e;
-  --red-price: #a42e3e;
+  --red-price: #ff0000c7;
 }
 
 #root {
@@ -27,7 +27,7 @@
 
 .ticket {
   font-family: var(--font-ticket);
-  color: var(--background-secondary);
+  color: var(--text-color-secondary);
   text-transform: uppercase;
   font-weight: 700;
   font-size: 20px;
@@ -51,7 +51,7 @@ h3 {
   margin: 0;
   font-family: var(--font-primary);
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 36px;
 
   @media screen and (min-width: 600px) {
@@ -90,7 +90,7 @@ p {
 a {
   margin: 0;
   font-family: var(--font-primary);
-  font-size: 28px;
+  font-size: 26px;
   line-height: 40px;
   color: inherit;
   scale: 1;
@@ -104,6 +104,24 @@ a:focus {
   opacity: 1;
   color: inherit;
   scale: 1.05;
+}
+
+.mail {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-color-primary);
+  scale: 1;
+  opacity: 1;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 250ms ease-in-out;
+}
+
+.mail:hover,
+.mail:focus {
+  opacity: 1;
+  color: var(--green-price);
+  scale: 1;
 }
 
 .gap {
@@ -142,9 +160,6 @@ a:focus {
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-shadow: 0 3px 7px 0 #ffffff, inset 0px -3px 10px 0px #ffffffbb;
-}
-
-.separator {
 }
 
 .background {
@@ -195,16 +210,24 @@ a:focus {
   font-weight: 700;
 }
 
+.text-color-primary:hover,
+.text-color-primary:focus {
+  color: var(--green-price);
+  font-weight: 700;
+}
+
 .accent {
   color: var(--accent-color);
 }
 
 .redAccent {
+  font-weight: 700;
   color: var(--red-price);
   text-decoration: line-through;
 }
 
 .greenAccent {
+  font-weight: 700;
   color: var(--green-price);
 }
 
@@ -218,14 +241,20 @@ a:focus {
 
 img {
   border-radius: 50%;
+  scale: 1;
+  transition: all 500ms ease-in-out;
   box-shadow: 0 3px 7px 0 var(--background-secondary),
     inset 0px -3px 10px 0px var(--background-secondary);
+}
+
+img:hover {
+  scale: 1.2;
 }
 
 .parralax {
   background-color: var(--background-primary);
   /* The image used */
-  background-image: url("./src/pxfuel.jpg");
+  background-image: url('./src/assets/pxfuel.jpg');
 
   /* Set a specific height */
   min-height: 500px;
