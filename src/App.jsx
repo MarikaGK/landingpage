@@ -570,6 +570,13 @@ function App() {
               Zarezerwuj swoje miejsce już teraz i daj szansę sobie na lepsze
               jutro
             </h3>{" "}
+            <img
+              src="https://raw.githubusercontent.com/MarikaGK/zyjzdrowo-kurs/main/src/assets/girls.jpg"
+              alt="Dziewczyny"
+              width="350"
+              height="350"
+              className="image"
+            />
           </div>
         </div>
       </div>
