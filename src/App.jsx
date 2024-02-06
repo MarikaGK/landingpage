@@ -5,7 +5,7 @@ import Pricing from "./components/Pricing";
 function App() {
   return (
     <div className="parralax">
-      <div>
+      <div className="glass">
         <div className="backgroundOne">
           <div className="container gap">
             <h3>
@@ -175,7 +175,7 @@ function App() {
           <div className="container gap">
             <BuyTicket />
             <img
-              src="./public/1707116164213.jpg"
+              src="./src/1707116164213.jpg"
               alt="Izabela Potrzebowska-Kniaziuk"
               width="200"
               height="200"
@@ -190,7 +190,7 @@ function App() {
               tylko teoretyczną, ale również praktyczną
             </p>
             <img
-              src="./public/1707116164206.jpg"
+              src="./src/1707116164206.jpg"
               alt="Kasia Koźlik"
               width="200"
               height="200"
@@ -203,7 +203,7 @@ function App() {
               przeprowadzi m.in. wizualizacje i zajęcia ruchowe
             </p>
             <img
-              src="./public/1707116164198.jpg"
+              src="./src/1707116164198.jpg"
               alt="Joanna Cidyło"
               width="200"
               height="200"
@@ -447,7 +447,7 @@ function App() {
                 <p className="text-black">kolacja,</p>
               </li>
               <li className="listItem">
-                <p>wieczór z mentalem,</p>
+                <p className="text-black">wieczór z mentalem,</p>
               </li>
               <li className="listItem">
                 <p className="text-black">
@@ -511,7 +511,9 @@ function App() {
               to wszystko czeka na Ciebie
             </p>
             <p>Jeśli potrzebujesz więcej info pisz</p>
-            <h5>dietoteka.rejestracja@gmail.com</h5>
+            <h5 className="ticket text-secondary">
+              dietoteka.rejestracja@gmail.com
+            </h5>
             <div>
               <p>
                 <strong>Cena obejmuje:</strong>
@@ -525,7 +527,7 @@ function App() {
                   Hotel Spa Arkas+ dostęp do basenu, saunarium, jacuzzi, masaże,{" "}
                 </li>
                 <li className="listItem">
-                  Zajęcia –panele szkoleniowe, treningi mentalne,
+                  Zajęcia - panele szkoleniowe, treningi mentalne,
                 </li>
                 <li className="listItem">śmiechojoga,</li>
                 <li className="listItem">trening relaksacyjny - nauka,</li>
@@ -543,7 +545,7 @@ function App() {
                 </li>
               </ul>
             </div>
-            <h3>
+            <h3 className="ticket text-secondary">
               Zarezerwuj swoje miejsce już teraz i daj szansę sobie na lepsze
               jutro
             </h3>{" "}

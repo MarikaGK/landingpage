@@ -223,8 +223,9 @@ img {
 }
 
 .parralax {
+  background-color: var(--background-primary);
   /* The image used */
-  background-image: url("./public/pxfuel.jpg");
+  background-image: url("./src/pxfuel.jpg");
 
   /* Set a specific height */
   min-height: 500px;
