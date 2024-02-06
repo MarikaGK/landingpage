@@ -90,11 +90,25 @@ function App() {
           <p className="text-black">
             Nawet techniczni Panowie się odnajdują na naszych spotkaniach!
           </p>
-          {/* video */}
-          <p className="text-black">Lubimy Was zaskakiwać</p>
-          {/* video */}
-          <p className="text-black">Poczuj te emocje!</p>
-          {/* video */}
+          <h5>Obejrzyj video:</h5>
+          <a
+            href="https://www.facebook.com/dietoteka/videos/247595858242266"
+            className="text-black"
+          >
+            Nawet techniczni Panowie się odnajdują na naszych spotkaniach
+          </a>
+          <a
+            href="https://www.facebook.com/dietoteka/videos/798739058578591"
+            className="text-black"
+          >
+            Lubimy Was zaskakiwać
+          </a>
+          <a
+            href="https://www.facebook.com/dietoteka/videos/309746628221537"
+            className="text-black"
+          >
+            Poczuj te emocje!
+          </a>
         </div>
         <div className="backgroundOne">
           <div className="container">
