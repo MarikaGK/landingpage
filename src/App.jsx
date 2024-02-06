@@ -194,7 +194,7 @@ function App() {
           <div className="container gap">
             <BuyTicket />
             <img
-              src="./src/assets/iza.jpg"
+              src="https://raw.githubusercontent.com/MarikaGK/zyjzdrowo-kurs/main/src/assets/iza.jpg"
               alt="Izabela Potrzebowska-Kniaziuk"
               width="200"
               height="200"
@@ -209,7 +209,7 @@ function App() {
               tylko teoretyczną, ale również praktyczną
             </p>
             <img
-              src="./src/assets/kasia.jpg"
+              src="https://raw.githubusercontent.com/MarikaGK/zyjzdrowo-kurs/main/src/assets/kasia.jpg"
               alt="Kasia Koźlik"
               width="200"
               height="200"
@@ -222,7 +222,7 @@ function App() {
               przeprowadzi m.in. wizualizacje i zajęcia ruchowe
             </p>
             <img
-              src="./src/assets/asia.jpg"
+              src="https://raw.githubusercontent.com/MarikaGK/zyjzdrowo-kurs/main/src/assets/asia.jpg"
               alt="Joanna Cidyło"
               width="200"
               height="200"
