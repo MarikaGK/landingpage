@@ -9,7 +9,9 @@ const Pricing = () => {
         Możesz oszczędzić <span className="greenAccent">690zł</span>!
       </h3>
       <div>
-        <p className="text-primary">Dodatkowo, jeśli przyjedziecie we dwójkę otrzymacie</p>
+        <p className="accent">
+          Dodatkowo, jeśli przyjedziecie we dwójkę otrzymacie
+        </p>
         <p className="text-primary greenAccent">10% zniżki</p>
       </div>
     </div>

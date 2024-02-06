@@ -52,7 +52,7 @@ function App() {
                 I po omacku szukasz rozwiązań i poprawy zdrowia łykając coraz większe ilości
                 lekarstw?
               </p> */}
-              <p className="text-color-secondary">
+              <p className="accent">
                 A może chcesz wyprzedzić czas i uniknąć tych wszystkich
                 dolegliwości?
               </p>
@@ -81,7 +81,7 @@ function App() {
         </div>
         <div className="backgroundTwo">
           <div className="container">
-            <h5 className="text-color-secondary">
+            <h5 className="text-color-primary">
               Witaj w świecie, który sprawi, że będziesz wyglądać i czuć się
               młodziej.
             </h5>
@@ -94,7 +94,7 @@ function App() {
             </p>
           </div>
           <div className="videosDiv">
-            <h5>Obejrzyj video:</h5>
+            <h5 className="accent">Obejrzyj video:</h5>
             <a
               href="https://www.facebook.com/dietoteka/videos/247595858242266"
               className="text-color-primary"
@@ -272,7 +272,7 @@ function App() {
                 strefę spa z saunami, basenem, jacuzzi oraz masażami
               </strong>
             </p>
-            <h5 className="text-black">
+            <h5 className="accent">
               Odprężenie i relaks po zajęciach gwarantowane!
             </h5>
             <p className="text-black">
@@ -557,7 +557,7 @@ function App() {
                   niespodzianki- zajęcia np..mini zabieg,
                 </li>
                 <li className="listItem">ale to nie koniec-- RELACJE,</li>
-                <li className="listItem greenAccent">
+                <li className="listItem text-color-primary">
                   Bonusy - dodatkowe materiały - video szkolenie +ebook +grupa
                   wsparcia na FB ) o wartości 397 zł (+ 10% zniżki, gdy będziesz
                   we dwójkę)

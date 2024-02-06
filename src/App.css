@@ -3,11 +3,11 @@
   padding: 0;
   margin: 0;
   /* --font-primary: "Libre Baskerville", serif; */
-  --font-secondary: 'Libre Baskerville', serif;
-  --font-ticket: 'Lato', sans-serif;
+  --font-secondary: "Libre Baskerville", serif;
+  --font-ticket: "Lato", sans-serif;
   /* --font-secondary: "Lato", sans-serif; */
   /* --font-secondary: "Cormorant Garamond", serif; */
-  --font-primary: 'Cormorant Garamond', serif;
+  --font-primary: "Cormorant Garamond", serif;
   /* --font-secondary: "Libre Baskerville", serif; */
   --background-primary: rgb(256, 256, 256, 1);
   --background-secondary: #6a9e8dc8;
@@ -27,20 +27,18 @@
 
 .ticket {
   font-family: var(--font-ticket);
-  color: var(--text-color-secondary);
+  color: var(--text-color-primary);
   text-transform: uppercase;
   font-weight: 700;
   font-size: 20px;
   padding: 10px;
   width: fit-content;
-  text-shadow: 0 0 3px var(--accent-color);
-  background: rgba(255, 255, 255, 0.26);
+
+  background: rgba(255, 255, 255, 0.2);
   border-radius: 16px;
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  box-shadow: 0 3px 7px 0 var(--background-secondary),
-    inset 0px -3px 10px 0px var(--background-secondary);
+  box-shadow: 0 3px 7px 0 var(--background-secondary);
   @media screen and (min-width: 600px) {
     font-size: 28px;
     padding: 20px;
@@ -254,7 +252,7 @@ img:hover {
 .parralax {
   background-color: var(--background-primary);
   /* The image used */
-  background-image: url('./src/assets/pxfuel.jpg');
+  background-image: url("./src/assets/pxfuel.jpg");
 
   /* Set a specific height */
   min-height: 500px;
