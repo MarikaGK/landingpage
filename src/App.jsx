@@ -90,25 +90,27 @@ function App() {
           <p className="text-black">
             Nawet techniczni Panowie się odnajdują na naszych spotkaniach!
           </p>
-          <h5>Obejrzyj video:</h5>
-          <a
-            href="https://www.facebook.com/dietoteka/videos/247595858242266"
-            className="text-black"
-          >
-            Nawet techniczni Panowie się odnajdują na naszych spotkaniach
-          </a>
-          <a
-            href="https://www.facebook.com/dietoteka/videos/798739058578591"
-            className="text-black"
-          >
-            Lubimy Was zaskakiwać
-          </a>
-          <a
-            href="https://www.facebook.com/dietoteka/videos/309746628221537"
-            className="text-black"
-          >
-            Poczuj te emocje!
-          </a>
+          <div className="container gap">
+            <h4 className="text-black">Obejrzyj video:</h4>
+            <a
+              href="https://www.facebook.com/dietoteka/videos/247595858242266"
+              className="text-black"
+            >
+              Nawet techniczni Panowie się odnajdują na naszych spotkaniach
+            </a>
+            <a
+              href="https://www.facebook.com/dietoteka/videos/798739058578591"
+              className="text-black"
+            >
+              Lubimy Was zaskakiwać
+            </a>
+            <a
+              href="https://www.facebook.com/dietoteka/videos/309746628221537"
+              className="text-black"
+            >
+              Poczuj te emocje!
+            </a>
+          </div>
         </div>
         <div className="backgroundOne">
           <div className="container">
@@ -189,7 +191,7 @@ function App() {
           <div className="container gap">
             <BuyTicket />
             <img
-              src="./src/1707116164213.jpg"
+              src="1707116164213.jpg"
               alt="Izabela Potrzebowska-Kniaziuk"
               width="200"
               height="200"
@@ -204,7 +206,7 @@ function App() {
               tylko teoretyczną, ale również praktyczną
             </p>
             <img
-              src="./src/1707116164206.jpg"
+              src="/1707116164206.jpg"
               alt="Kasia Koźlik"
               width="200"
               height="200"
