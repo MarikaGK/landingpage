@@ -69,7 +69,50 @@ function App() {
               wprowadzić profilaktykę stanów zapalnych oraz poznać kuracje
               zdrowotne przeciwstarzeniowe (anty aging)
             </h4>
-            {/** wstawić opinię z fb */}
+            <ul className="opinionList">
+              <li className="opinionItem">
+                <img
+                  src="https://raw.githubusercontent.com/MarikaGK/zyjzdrowo-kurs/main/src/assets/izaopinia1.jpg"
+                  width="600"
+                  className="opinionImg"
+                />
+              </li>
+              <li className="opinionItem">
+                <img
+                  src="https://raw.githubusercontent.com/MarikaGK/zyjzdrowo-kurs/main/src/assets/izaopinia2.jpg"
+                  width="600"
+                  className="opinionImg"
+                />
+              </li>
+              <li className="opinionItem">
+                <img
+                  src="https://raw.githubusercontent.com/MarikaGK/zyjzdrowo-kurs/main/src/assets/izaopinia3.jpg"
+                  width="600"
+                  className="opinionImg"
+                />
+              </li>
+              <li className="opinionItem">
+                <img
+                  src="https://raw.githubusercontent.com/MarikaGK/zyjzdrowo-kurs/main/src/assets/izaopinia4.jpg"
+                  width="600"
+                  className="opinionImg"
+                />
+              </li>
+              <li className="opinionItem">
+                <img
+                  src="https://raw.githubusercontent.com/MarikaGK/zyjzdrowo-kurs/main/src/assets/izaopinia5.jpg"
+                  width="600"
+                  className="opinionImg"
+                />
+              </li>
+              <li className="opinionItem">
+                <img
+                  src="https://raw.githubusercontent.com/MarikaGK/zyjzdrowo-kurs/main/src/assets/izaopinia6.jpg"
+                  width="600"
+                  className="opinionImg"
+                />
+              </li>
+            </ul>
             <h4>Przeczytaj więcej!</h4>
             <a
               href="https://www.facebook.com/dietoteka/reviews"
@@ -100,18 +143,24 @@ function App() {
             <a
               href="https://www.facebook.com/dietoteka/videos/247595858242266"
               className="text-link-color-primary"
+              target="_blank"
+              rel="noreferrer"
             >
               Również Panowie świetnie się odnajdują na naszych spotkaniach!
             </a>
             <a
               href="https://www.facebook.com/dietoteka/videos/798739058578591"
               className="text-link-color-primary"
+              target="_blank"
+              rel="noreferrer"
             >
               Lubimy Was zaskakiwać!
             </a>
             <a
               href="https://www.facebook.com/dietoteka/videos/309746628221537"
               className="text-link-color-primary"
+              target="_blank"
+              rel="noreferrer"
             >
               Poczuj te emocje!
             </a>
@@ -354,8 +403,39 @@ function App() {
               rel="noreferrer"
               className="text-link-color-primary"
             >
-              Zerknij na prace Joanny Cidyło
+              Zerknij na sesje kobiece Joanny Cidyło
             </a>
+            <a
+              href="https://www.facebook.com/joannacidylofotografia"
+              target="_blank"
+              rel="noreferrer"
+              className="text-link-color-primary"
+            >
+              I pozostałe Jej prace
+            </a>
+            <ul className="opinionList">
+              <li className="opinionItem">
+                <img
+                  src="https://raw.githubusercontent.com/MarikaGK/zyjzdrowo-kurs/main/src/assets/asiaopinia1.jpg"
+                  width="600"
+                  className="opinionImg"
+                />
+              </li>
+              <li className="opinionItem">
+                <img
+                  src="https://raw.githubusercontent.com/MarikaGK/zyjzdrowo-kurs/main/src/assets/asiaopinia2.jpg"
+                  width="600"
+                  className="opinionImg"
+                />
+              </li>
+              <li className="opinionItem">
+                <img
+                  src="https://raw.githubusercontent.com/MarikaGK/zyjzdrowo-kurs/main/src/assets/asiaopinia3.jpg"
+                  width="600"
+                  className="opinionImg"
+                />
+              </li>
+            </ul>
             <div className="container">
               <BuyTicket />
               <Pricing />
@@ -541,28 +621,47 @@ function App() {
               </p>
               <ul className="list">
                 <li className="listItem">
-                  2 noclegi ( pokoje 2 osobowe)+ posiłki/kawa, herbata,woda
-                  przez cały dzień /nauka wyboru jedzenia podczas posiłków,
+                  <p>
+                    2 noclegi ( pokoje 2 osobowe)+ posiłki/kawa, herbata,woda
+                    przez cały dzień /nauka wyboru jedzenia podczas posiłków,
+                  </p>
                 </li>
                 <li className="listItem">
-                  Hotel Spa Arkas+ dostęp do basenu, saunarium, jacuzzi, masaże,{" "}
+                  <p>
+                    Hotel Spa Arkas+ dostęp do basenu, saunarium, jacuzzi,
+                    masaże,{" "}
+                  </p>
                 </li>
                 <li className="listItem">
-                  Zajęcia - panele szkoleniowe, treningi mentalne,
+                  <p>Zajęcia - panele szkoleniowe, treningi mentalne,</p>
                 </li>
-                <li className="listItem">śmiechojoga,</li>
-                <li className="listItem">trening relaksacyjny - nauka,</li>
-                <li className="listItem">zajęcia ruchowo-relaksacyjne,</li>
-                <li className="listItem">nauka technik,</li>
                 <li className="listItem">
-                  zajęcia pozowania, zdjęcia lifestylowe/portrety,
-                  niespodzianki- zajęcia np..mini zabieg,
+                  <p>śmiechojoga,</p>
                 </li>
-                <li className="listItem">ale to nie koniec-- RELACJE,</li>
+                <li className="listItem">
+                  <p>trening relaksacyjny - nauka,</p>
+                </li>
+                <li className="listItem">
+                  <p>zajęcia ruchowo-relaksacyjne,</p>
+                </li>
+                <li className="listItem">
+                  <p>nauka technik,</p>
+                </li>
+                <li className="listItem">
+                  <p>
+                    zajęcia pozowania, zdjęcia lifestylowe/portrety,
+                    niespodzianki- zajęcia np..mini zabieg,
+                  </p>
+                </li>
+                <li className="listItem">
+                  <p>ale to nie koniec-- RELACJE,</p>
+                </li>
                 <li className="listItem text-color-primary">
-                  Bonusy - dodatkowe materiały - video szkolenie +ebook +grupa
-                  wsparcia na FB ) o wartości 397 zł (+ 10% zniżki, gdy będziesz
-                  we dwójkę)
+                  <p>
+                    Bonusy - dodatkowe materiały - video szkolenie +ebook +grupa
+                    wsparcia na FB ) o wartości 397 zł (+ 10% zniżki, gdy
+                    będziesz we dwójkę)
+                  </p>
                 </li>
               </ul>
             </div>
