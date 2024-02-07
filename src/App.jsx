@@ -510,7 +510,7 @@ function App() {
         {/* fotka opinii o IP-K */}
         <div className="backgroundTwo">
           <div className="container">
-            <h5 className="text-black">AGENDA SZKOLENIA 15-17 marca 2024r</h5>
+            <h5 className="text-black">AGENDA SZKOLENIA 15-17 marca 2024r*</h5>
             <p className="text-black">
               <strong>Piątek - 15:00</strong>
             </p>
@@ -652,6 +652,13 @@ function App() {
             </a>
             <div>
               <p>
+                <strong>
+                  Gwarancją rezerwacji jest wpłata całości kwoty lub zadatku
+                  600zł{" "}
+                </strong>
+              </p>
+              <p>Ilość miejsc ograniczona!</p>
+              <p>
                 <strong>Cena obejmuje:</strong>
               </p>
               <ul className="list">
@@ -694,12 +701,20 @@ function App() {
                 <li className="listItem text-color-primary">
                   <p>
                     Bonusy - dodatkowe materiały - video szkolenie +ebook +grupa
-                    wsparcia na FB ) o wartości 397 zł (+ 10% zniżki, gdy
-                    będziesz we dwójkę)
+                    wsparcia na FB o wartości 397 zł (+ 10% zniżki, gdy będziesz
+                    we dwójkę)
                   </p>
                 </li>
               </ul>
             </div>
+            <p></p>
+            <p>
+              Wpłaty tytułem "Szkolenie marzec 2024" prosimy dokonywać na nr
+              konta
+            </p>
+            <p>
+              <strong>85 1020 2137 0000 9502 0040 2818</strong>
+            </p>
             <h3 className="ticket text-secondary">
               Zarezerwuj swoje miejsce już teraz i daj szansę sobie na lepsze
               jutro
@@ -711,6 +726,10 @@ function App() {
               height="350"
               className="image"
             />
+            <p>
+              *Organizator zastrzega sobie możliwość zmian lub odwołania
+              wydarzenia ze zwrotem pieniędzy
+            </p>
           </div>
         </div>
       </div>
