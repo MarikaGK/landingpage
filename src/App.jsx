@@ -112,6 +112,41 @@ function App() {
                   className="opinionImg"
                 />
               </li>
+              <li className="opinionItem">
+                <img
+                  src="https://raw.githubusercontent.com/MarikaGK/zyjzdrowo-kurs/main/src/assets/izaopinia7.jpg"
+                  width="600"
+                  className="opinionImg"
+                />
+              </li>
+              <li className="opinionItem">
+                <img
+                  src="https://raw.githubusercontent.com/MarikaGK/zyjzdrowo-kurs/main/src/assets/izaopinia8.jpg"
+                  width="600"
+                  className="opinionImg"
+                />
+              </li>
+              <li className="opinionItem">
+                <img
+                  src="https://raw.githubusercontent.com/MarikaGK/zyjzdrowo-kurs/main/src/assets/izaopinia9.jpg"
+                  width="600"
+                  className="opinionImg"
+                />
+              </li>
+              <li className="opinionItem">
+                <img
+                  src="https://raw.githubusercontent.com/MarikaGK/zyjzdrowo-kurs/main/src/assets/izaopinia10.jpg"
+                  width="600"
+                  className="opinionImg"
+                />
+              </li>
+              <li className="opinionItem">
+                <img
+                  src="https://raw.githubusercontent.com/MarikaGK/zyjzdrowo-kurs/main/src/assets/izaopinia11.jpg"
+                  width="600"
+                  className="opinionImg"
+                />
+              </li>
             </ul>
             <h4>Przeczytaj więcej!</h4>
             <a
