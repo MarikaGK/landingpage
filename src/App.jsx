@@ -471,7 +471,7 @@ function App() {
                 />
               </li>
             </ul>
-            <div className="container">
+            <div>
               <BuyTicket />
               <Pricing />
             </div>
@@ -634,7 +634,7 @@ function App() {
           </div>
         </div>
         <div className="backgroundTwo">
-          <div className="container">
+          <div>
             <BuyTicket />
             <Pricing />
           </div>
