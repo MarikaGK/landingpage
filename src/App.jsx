@@ -471,7 +471,7 @@ function App() {
                 />
               </li>
             </ul>
-            <div>
+            <div className="flex">
               <BuyTicket />
               <Pricing />
             </div>
@@ -634,7 +634,7 @@ function App() {
           </div>
         </div>
         <div className="backgroundTwo">
-          <div>
+          <div className="flex">
             <BuyTicket />
             <Pricing />
           </div>
@@ -650,14 +650,13 @@ function App() {
             <a className="mail" href="mailto:dietoteka.rejestracja@gmail.com">
               dietoteka.rejestracja@gmail.com
             </a>
+            <p>
+              <strong>
+                Gwarancją rezerwacji jest wpłata całości kwoty lub zadatku 600zł{" "}
+              </strong>
+            </p>
+            <p>Ilość miejsc ograniczona!</p>
             <div>
-              <p>
-                <strong>
-                  Gwarancją rezerwacji jest wpłata całości kwoty lub zadatku
-                  600zł{" "}
-                </strong>
-              </p>
-              <p>Ilość miejsc ograniczona!</p>
               <p>
                 <strong>Cena obejmuje:</strong>
               </p>
@@ -709,8 +708,8 @@ function App() {
             </div>
             <p></p>
             <p>
-              Wpłaty tytułem "Szkolenie marzec 2024" prosimy dokonywać na nr
-              konta
+              Wpłaty tytułem &quot;Szkolenie marzec 2024&quot; prosimy dokonywać
+              na nr konta
             </p>
             <p>
               <strong>85 1020 2137 0000 9502 0040 2818</strong>
