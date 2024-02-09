@@ -291,7 +291,10 @@ img:hover {
 .opinionImg:hover,
 .opinionImg:focus {
   z-index: 1;
-  scale: 1.3;
+  scale: 1.1;
+  @media screen and (min-width: 600px) {
+    scale: 1.3;
+  }
 }
 
 .parralax {
