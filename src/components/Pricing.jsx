@@ -14,6 +14,7 @@ const Pricing = () => {
         </p>
         <p className="text-primary greenAccent">10% zniżki</p>
       </div>
+      <h3 className="text-black">Dostępnych jest tylko 20 miejsc!</h3>
     </div>
   );
 };
